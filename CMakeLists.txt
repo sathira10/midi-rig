@@ -37,7 +37,7 @@ endif()
 add_executable(midi_rig
         src/main.cpp
         src/midi/MidiEvent.cpp
-        src/midi/MidiEvent.h)
+)
 
 target_include_directories(midi_rig PRIVATE ${CMAKE_SOURCE_DIR}/src)
 
